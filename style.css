@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Inter;
+}
+html, body {
+  overscroll-behavior: none; 
+}
+
+
+/*=========NAVBAR============*/
+
+.navbar1 {
+    background-color: black;
+    height: 44px;
+    padding: 0px 22px;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar1 ul li a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icon {
+    font-size: large;
+}
+
+li {
+    font-weight: 300;
+    font-size: small;
+}
+
+.tag {
+    color: rgba(255, 255, 255, 0.913);
+}
+
+.nav2 {
+    background-image: url(background\ nav.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: space-between
+}
+
+.edu {
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    padding-left: 0px;
+    padding-top: 40px;
+    font-size: 4.9rem;
+    margin-left: 29px;
+    background-color: transparent;
+    height: 280px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+}
+
+.edu span {
+    background-color: #ffec00;
+    color: black;
+    margin-right: 4px;
+    border-radius: 18px;
+}
+
+.left {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    height: 244px;
+    width: 20%;
+    margin-right: 62px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+.mis {
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 18px;
+}
+
+.mis span {
+    background-color: #01ddff;
+    color: black;
+    font-weight: 700;
+    margin-left: 7px;
+    padding-left: 7px;
+    padding-right: 9px;
+    border-radius: 7px;
+}
+
+.mis1 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.decor a:hover {
+    text-decoration: underline;
+}
+
+.mis2 {
+    margin-left: 32px;
+}
+
+.mis1 a,
+.mis2 a {
+    color: #4df286;
+    font-size: small
+}
+
+.fa-square-arrow-up-right {
+    background: none;
+    border: none;
+    color: #06ff00ba;
+}
+
+/* ======containers======== */
+
+.container1 {
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fill {
+    height: 146px;
+    width: 148px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 9px;
+    margin-right: 9px;
+    border-radius: 14px;
+}
+
+.fill:hover,
+.fill:focus-within {
+    transform: translateY(-2px) scale(1.001);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.fill img {
+    width: 100%;
+    height: 108px;
+    background: #dbcccc33;
+    border-radius: 15px;
+}
+
+.fill a {
+    color: black;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.container2,
+.container3,
+.container4 {
+    height: 580px;
+}
+
+.heading {
+    height: 41px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.heading h2 {
+    margin-left: 30px;
+    background-color: #01DDff;
+    border-radius: 5px;
+}
+
+.heading span {
+    margin-left: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 1px;
+    color: darkslategrey;
+}
+
+.mainbox {
+    height: 540px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-bts-offer-featured-202607_GEO_IN?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=bTAvUVhobndWL01MVC9aenBVVGo5UWt3NHc3dStlS1AxQU12Y29qK3NjQ0VmL2FDL3dCcXEwTlBiVTZJcHNJby9mNDM5eHVLS1dJSTkyYTRRL1B3TWNmSGN3NTUxbDRHZDZXK1V3b1o4a1R3RUxLOE0vYnFBZU9sNDhDU2JJVzkvdW5uSjR2YkZNVkdPa3lzQzROY3h3);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 486px;
+    padding-left: 16px;
+    width: 31%;
+    border-radius: 24px;
+}
+
+.card h3 {
+    color: #ff791b;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+.card a {
+    color: white;
+    height: 128px;
+    font-size: 29px;
+    width: 340px;
+    padding-left: 8px;
+}
+
+.card:hover,
+.card:focus-within {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+.card2 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-bts-macbook-air-202607?wid=800&hei=1000&fmt=webp&qlt=90&.v=bTAvUVhobndWL01MVC9aenBVVGo5YjdTVjI4QVhleVhwMk9XMnZxOVFSaXdwV0Y2eWhkOHFUM3d5TFRncTRzT2dpcjhyQnJrZTk3NDVpVGh0RDBPL1lhbzlHL1ZwRHplZ2xaQnc1S0pvcHd5SU1FVEJOQytka0xqMTBMc2JYN2g&traceId=1);
+}
+
+.card2 a,
+.card3 a {
+    height: 32px;
+    width: 196px;
+    color: black;
+}
+
+.card2 div,
+.card3 div {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.card2 span1,
+.card3 span1 {
+    font-size: small;
+    font-weight: 500;
+}
+
+.card2 span2,
+.card3 span2 {
+    font-size: smaller;
+    color: #3d3c3c;
+    font-weight: 600;
+}
+
+.card3 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-bts-ipad-air-202607?wid=800&hei=1000&fmt=webp&qlt=90&.v=bTAvUVhobndWL01MVC9aenBVVGo5ZHFYOTB4UUJ1Sk8yNXl3S3ZsakdNTXJxcFM5QVNkMXhaZ1NFUTRGWDV3M3ZjRDZ3U3RCY3ZWM1JDUm5wVzZQNXFnanlBWVNKa2NONkg3aVVLNk5ZSEdXajRqT0l1Q3FwL0J5Qzdza29GTVE&traceId=1);
+}
+
+.container3 {
+    margin-top: 40px;
+}
+
+.container3 .mainbox .card1 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-iphone-17-pro-202509?wid=800&hei=1000&fmt=webp&qlt=90&.v=UzBXQnlhUWdraTNvNU1Kb3pEQlpXQjVOVStZaG1ncWFjNXVUZkZ4anVIYlNab1lJcUZwSFVRK1htYlNmZUtPTFJ2R3NEUGt3Q2tTUTNWU09neHFkdWRBR0JWVHBRN0NKVm11SFZzeU45T2VCTXFJbjVIbEFUN05pTHFFYldZYzg&traceId=1);
+}
+
+.container3 .mainbox .card2 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-macbook-neo-202603?wid=800&hei=1000&fmt=webp&qlt=90&.v=MjhMcWJ2MGZwbXEwdnBkcUN6ZnhyMENkWWUxVnpsancwa2o0MWNIbE5maHFTRjNxbmh1UnU2R29ibGdpZUFXc25ZdDMremx3N21EQS9OQlBTRXgxeUFXa3hqWStLWVR2OTJXWDRleXhWMk1OZnVPWGRXSForVW95dWNpSkZQMzM&traceId=1);
+}
+
+.container3 .mainbox .card3 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-pro-display-202603?wid=800&hei=1000&fmt=webp&qlt=90&.v=NUZWanRoamZCdURRVnJnb1VsZlUzb0tNR2h2aGJESnJIME41aVgvR0ExWnFTRjNxbmh1UnU2R29ibGdpZUFXc25ZdDMremx3N21EQS9OQlBTRXgxeUoyU1ZJa3Z4ZGUxRFRuVU1kb2J0UXVzc2VPRkY3bzB2TlBiNHV3Z2hzYkg&traceId=1);
+}
+
+.container3 .card1 a {
+    height: 44px;
+}
+
+.container3 .card1 div {
+    margin-left: 10px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.container3 .card1 span1,
+span2 {
+    color: white;
+}
+
+.container3 .card2 a {
+    width: 218px;
+}
+
+.container3 .card3 a {
+    margin-top: 50px;
+    color: white;
+    width: 284px;
+}
+
+.container3 .card3 span1 {
+    color: white;
+}
+
+.container3 .card2 span2 {
+    color: black;
+    font-weight: 600;
+}
+
+.container3 .card3 span2 {
+    color: white;
+    font-weight: 600;
+}
+
+.container4 .mainbox .card1 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-edu-mac-cto-202606?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=TysyM3c4L0xvQ1dZWVNWTXZ0ekxPRHJkTm1TSWJMYWtjTGsweThEeC8vSnFTRjNxbmh1UnU2R29ibGdpZUFXc0prY3crUWRsN1dqVjRnMHR5S1hVbk9NenNYMlRuVU9vMzdHMVZxajNyUHZZV2loeGMrRzVFSllWb3NkbHBxNHU);
+}
+
+.container4 .mainbox .card2 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-edu-engraving-202606_GEO_IN?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=TysyM3c4L0xvQ1dZWVNWTXZ0ekxPQkdiM0IvYW1Zem0vT0NsU1NEOXVtWVZwbHpqK0NMTTQraWNtbml6cU1GWGVEb1lRcjg2U0o3bTMvMkR2S2VvTmt2aHJVVVRvS3hUQ0EwVk8wak9Ka0dpQ2tGa3JmbGFsWjhiblM4bUhERGE);
+}
+
+.container4 .mainbox .card3 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-edu-financing-202606?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=TysyM3c4L0xvQ1dZWVNWTXZ0ekxPRkVSa1R1R1RXZWFHUC9oUUNmZTdoK1NVa2ErVVA5OVFIR0EyV0w2QjZMdVN5aWNYUFpIbkFhdm03T3BzSjdVSTFvOVlPbVVBdUI1Sm84MFFrSXl0OSs2TkNRTWc4aXlLZTZNTkFkRmFrMVA);
+}
+
+.container4 .card1 a,
+.card2 a,
+.card3 a {
+    height: 70px;
+    color: black;
+    font-weight: 600;
+    width: 280px;
+}
+
+.container4 .card1 span1 {
+    font-size: small;
+    margin-left: 7px;
+}
+
+.container4 .card1 h3,
+.card2 h3,
+.card3 h3 {
+    color: #796161;
+}
+
+.container4 .card2 a,
+.card3 a {
+    height: 40px;
+}
+
+.container5 .mainbox .card1 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-bts-apple-college-202607?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=bTAvUVhobndWL01MVC9aenBVVGo5ZGxzTm81SDdoUzJHRy9NY3VrOUxVZVA2Wk1NWXhxRjc3eVVydW9pZ2NqRHN2Mmx4a3VvSnUzaFUvSVlVRUJkbEVuRHltTzhqY1dnWklSNlIvdkRZYWdKanRCUkthUEkyai9VZHA1TWtNM0o);
+}
+
+.container5 .mainbox .card2 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-edu-college-essentials-split-view-202404?wid=800&hei=1000&fmt=webp&qlt=90&.v=TysyM3c4L0xvQ1dZWVNWTXZ0ekxPS3dvMC9HeVZMenluMHdoeHFGVUN5TEFBaDFKZmdzNGJWSFZoaVJ0bmFnK2xjcUhnbnN6cUtVL3VydEF0U1BTa0thdmhRT3BSWjN0ajFYa1F5NGRKSlh0b3Rsdk9wTm03Smhpb0ZVODd6YjQyY0ZITGpBbDdBWVYvYmJrUDdIWm1R&traceId=1);
+}
+
+.container5 .mainbox .card3 {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-edu-swift-202510?wid=800&hei=1000&fmt=webp&qlt=90&.v=TysyM3c4L0xvQ1dZWVNWTXZ0ekxPTkovaDZoVXkzUS9SYjlqczFEWGVnLzkvamYzRzRvcFlnajNacmhEOC9BeEZXZzlzM2cwVmJseGdsS3RYT09za2pTR2NyK1FLYzZkVjFGbkhkQS9PaVYrYWpGdS9XeFgvbS9ITnNYOEhYaG4&traceId=1);
+}
+
+.container5 h3 {
+    color: #494444;
+}
+
+.container5 .card a {
+    height: 44px;
+    color: black;
+    font-weight: 600;
+}
+
+.container5 .card1 span1 {
+    margin-left: 5px;
+    font-size: small;
+}
+
+.container5 .card2 a {
+    width: 333px;
+}
+
+.container5 .card2 div {
+    margin-top: 36px;
+}
+
+/* footer */
+
+.links {
+    height: 100px;
+    margin-left: 24px;
+}
+
+.links .a {
+    background-color: #ffffff;
+    height: 40px;
+    display: flex;
+    gap: 1rem;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 12px;
+
+}
+
+.links a:hover {
+    background-color: black;
+    color: white;
+}
+
+.a a {
+    color: #1d1d1f;
+    background-color: rgb(247 247 247);
+    border: 1px solid grey;
+    border-radius: 22px;
+    align-items: center;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    width: 8.4%;
+    height: 88%;
+}
+
+.ending {
+    height: 388px;
+}
+
+.ending p {
+    font-size: small;
+    color: #847e7e;
+    padding-left: 30px;
+}
