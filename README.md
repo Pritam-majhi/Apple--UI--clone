@@ -1,6 +1,6 @@
 # Apple UI Clone
 
-A responsive Apple Store-inspired website built using HTML, CSS, and small  JavaScript.
+A responsive Apple Store-UI clone built using HTML, CSS, and small  JavaScript.
 
 ## Time Taken
 
@@ -13,6 +13,10 @@ A responsive Apple Store-inspired website built using HTML, CSS, and small  Java
 - JavaScript
 - Font Awesome
 - Google Fonts
+
+## What I Learned
+
+I learned how to build responsive layouts, use CSS flexbox and media queries, add hover effects, work with external resources, and create basic JavaScript animations.
 
 ## Features
 
