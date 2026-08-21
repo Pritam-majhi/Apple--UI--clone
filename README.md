@@ -6,6 +6,8 @@ A responsive Apple Store-UI clone built using HTML, CSS, and small  JavaScript.
 
 **21 Hours**
 
+## [Live Demo] (https://pritam-majhi.github.io/Apple--UI--clone/)
+
 ## Technologies Used
 
 - HTML5
