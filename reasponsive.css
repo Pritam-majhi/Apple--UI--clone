@@ -1,0 +1,358 @@
+/* Tablets / smaller laptops */
+@media (max-width: 1024px) {
+    .navbar1 {
+        padding: 0 14px;
+    }
+
+    .navbar1 ul {
+        gap: 18px;
+        overflow-x: auto;
+        justify-content: flex-start;
+        scrollbar-width: none;
+    }
+
+    .navbar1 ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    .navbar1 li {
+        flex: 0 0 auto;
+    }
+
+    .nav2 {
+        height: auto;
+        min-height: 300px;
+        padding: 24px 28px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .edu {
+        width: 58%;
+        height: auto;
+        min-height: 220px;
+        margin-left: 0;
+        padding-top: 10px;
+        font-size: clamp(3rem, 6vw, 4.9rem);
+    }
+
+    .left {
+        width: 35%;
+        margin-right: 0;
+        height: auto;
+    }
+
+    .container1 {
+        height: auto;
+        min-height: 200px;
+        padding: 25px 15px;
+        overflow-x: auto;
+        justify-content: flex-start;
+        gap: 18px;
+        scrollbar-width: none;
+    }
+
+    .container1::-webkit-scrollbar {
+        display: none;
+    }
+
+    .fill {
+        flex: 0 0 130px;
+        margin: 0;
+    }
+
+    .container2,
+    .container3,
+    .container4,
+    .container5 {
+        height: auto;
+        min-height: 0;
+        margin-top: 40px;
+    }
+
+    .heading {
+        height: auto;
+        min-height: 41px;
+        padding: 0 24px;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .heading h2 {
+        margin-left: 0;
+    }
+
+    .heading span {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .mainbox {
+        height: auto;
+        padding: 30px 24px 50px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+    }
+
+    .card {
+        width: 100%;
+        height: 486px;
+        padding-left: 16px;
+    }
+
+    .card a {
+        max-width: calc(100% - 20px);
+    }
+
+    .container2 .mainbox .card1 {
+        grid-column: 1 / -1;
+    }
+
+    .container2 .mainbox .card1 a {
+        width: min(100%, 520px);
+    }
+
+    .container5 .card2 a {
+        width: auto;
+    }
+
+    .links {
+        height: auto;
+        margin: 10px 24px 30px;
+    }
+
+    .links .a {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 10px;
+    }
+
+    .a a {
+        width: auto;
+        min-width: 130px;
+        padding: 8px 16px;
+    }
+
+    .ending {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .ending p {
+        padding: 0 24px;
+    }
+}
+
+
+/* Phones */
+@media (max-width: 600px) {
+    .navbar1 {
+        height: 48px;
+        padding: 0 14px;
+    }
+
+    .navbar1 ul {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+
+    .navbar1 li:not(.icon):has(span) {
+        display: none;
+    }
+
+    .navbar1 li {
+        flex: 0 0 auto;
+    }
+
+    .navbar1 .icon {
+        display: block;
+    }
+
+    .nav2 {
+        min-height: 0;
+        padding: 28px 18px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .edu {
+        width: 100%;
+        min-height: 0;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        font-size: clamp(2.4rem, 11vw, 4rem);
+        line-height: 1.05;
+    }
+
+    .left {
+        width: 100%;
+        height: auto;
+        margin: 8px 0 0;
+        gap: 5px;
+    }
+
+    .mis {
+        font-size: 1.15rem;
+        margin-top: 0;
+    }
+
+    .mis1,
+    .mis2 {
+        margin-left: 0;
+    }
+
+    .mis1 a,
+    .mis2 a {
+        font-size: 0.8rem;
+    }
+
+    .container1 {
+        min-height: 175px;
+        padding: 20px 14px;
+        gap: 14px;
+    }
+
+    .fill {
+        flex-basis: 112px;
+        height: 132px;
+    }
+
+    .fill img {
+        height: 92px;
+    }
+
+    .heading {
+        padding: 0 16px;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .heading h2 {
+        font-size: 1.35rem;
+        line-height: 1.25;
+    }
+
+    .heading span {
+        font-size: 1rem;
+        line-height: 1.35;
+    }
+
+    .mainbox {
+        grid-template-columns: 1fr;
+        padding: 24px 16px 42px;
+        gap: 18px;
+    }
+
+    .container2 .mainbox .card1 {
+        grid-column: auto;
+    }
+
+    .card {
+        width: 100%;
+        min-height: 460px;
+        height: 460px;
+        padding-left: 14px;
+        border-radius: 20px;
+        background-position: center;
+    }
+
+    .card h3 {
+        margin-top: 20px;
+        margin-left: 6px;
+    }
+
+    .card a {
+        width: auto !important;
+        max-width: calc(100% - 22px);
+        font-size: 24px;
+        line-height: 1.15;
+        height: auto;
+        padding-left: 6px;
+    }
+
+    .card div {
+        max-width: calc(100% - 20px);
+    }
+
+    .container3 .card3 a {
+        margin-top: 35px;
+    }
+
+    .container4 .card1 a,
+    .container4 .card2 a,
+    .container4 .card3 a {
+        width: auto !important;
+        height: auto;
+    }
+
+    .container5 .card2 a {
+        width: auto !important;
+    }
+
+    .container5 .card2 div {
+        margin-top: 24px;
+    }
+
+    .links {
+        margin: 10px 16px 26px;
+    }
+
+    .links h3 {
+        font-size: 1rem;
+    }
+
+    .links .a {
+        gap: 8px;
+    }
+
+    .a a {
+        width: calc(50% - 4px);
+        min-width: 0;
+        padding: 7px 10px;
+        font-size: 0.78rem;
+    }
+
+    .ending {
+        padding: 0 0 25px;
+    }
+
+    .ending p {
+        padding: 0 16px;
+        font-size: 0.72rem;
+        line-height: 1.5;
+    }
+}
+
+
+/* Very small phones */
+@media (max-width: 380px) {
+    .edu {
+        font-size: 2.2rem;
+    }
+
+    .fill {
+        flex-basis: 100px;
+    }
+
+    .card {
+        height: 430px;
+        min-height: 430px;
+    }
+
+    .card a {
+        font-size: 21px;
+    }
+
+    .heading h2 {
+        font-size: 1.2rem;
+    }
+
+    .heading span {
+        font-size: 0.9rem;
+    }
+}
